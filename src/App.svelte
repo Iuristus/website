@@ -3,8 +3,9 @@
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<h1>{name}</h1>
+	<img src="./favicon.png" alt="Iuristus logo" />
+	<p>We are currently building the website, come back later to see how we try to improve  Open Source projects !</p>
 </main>
 
 <style>
@@ -15,8 +16,11 @@
 		margin: 0 auto;
 	}
 
+	img {
+		max-width: 230px;
+	}
 	h1 {
-		color: #ff3e00;
+		color: #928a3c;
 		text-transform: uppercase;
 		font-size: 4em;
 		font-weight: 100;
